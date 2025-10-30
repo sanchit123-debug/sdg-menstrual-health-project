@@ -1,0 +1,361 @@
+
+# Create the complete HTML file
+html_content = '''<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="UN SDG Project: Understanding Sustainable Development Goals 1-5 with focus on SDG 5.6 - Menstrual Health and Hygiene. Educational resource for college students.">
+    <meta name="keywords" content="SDG, UN Goals, menstrual health, menstrual hygiene, education, gender equality, poverty, hunger, health">
+    <meta name="author" content="SDG College Project Team">
+    <title>SDG Project: Menstrual Health & Hygiene - Goals for Change</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <div class="nav-brand">SDG Project</div>
+            <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" role="menubar">
+                <li role="none"><a href="#home" role="menuitem">Home</a></li>
+                <li role="none"><a href="#sdgs" role="menuitem">SDG 1-5</a></li>
+                <li role="none"><a href="#menstrual-health" role="menuitem">Goal 5.6</a></li>
+                <li role="none"><a href="#team" role="menuitem">Our Team</a></li>
+                <li role="none"><a href="#resources" role="menuitem">Resources</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home" role="banner">
+        <div class="hero-overlay">
+            <div class="hero-content">
+                <h1>Sustainable Development Goals</h1>
+                <p class="hero-subtitle">Working Together for a Better Future</p>
+                <p class="hero-description">Understanding SDG 5.6: Universal Access to Menstrual Health and Hygiene</p>
+                <a href="#sdgs" class="cta-button" aria-label="Learn more about SDGs">Learn More</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Introduction Section -->
+        <section class="intro-section" aria-labelledby="intro-heading">
+            <div class="container">
+                <h2 id="intro-heading">What Are the UN Sustainable Development Goals?</h2>
+                <p class="intro-text">
+                    The <strong>Sustainable Development Goals (SDGs)</strong>, also known as the Global Goals, were adopted by the United Nations in 2015 as a universal call to action. These 17 interconnected goals aim to end poverty, protect the planet, and ensure that by 2030 all people enjoy peace and prosperity. The SDGs recognize that action in one area affects outcomes in others, and that development must balance social, economic, and environmental sustainability. They represent a bold commitment to create a better world for current and future generations.
+                </p>
+            </div>
+        </section>
+
+        <!-- SDG 1-5 Section -->
+        <section class="sdg-section" id="sdgs" aria-labelledby="sdg-heading">
+            <div class="container">
+                <h2 id="sdg-heading">Understanding SDG Goals 1-5</h2>
+                
+                <!-- SDG 1 -->
+                <article class="sdg-card">
+                    <div class="sdg-number" style="background-color: #E5243B;">1</div>
+                    <div class="sdg-content">
+                        <h3>No Poverty</h3>
+                        <p>SDG 1 aims to end poverty in all its forms everywhere by 2030. Despite significant progress—with extreme poverty rates dropping from 36% in 1990 to 10% in 2015—approximately 736 million people still live on less than $1.90 per day. Poverty is multidimensional, affecting access to food, clean water, education, and healthcare. Women are disproportionately affected due to less access to paid work, education, and property ownership. Achieving this goal requires targeting the most vulnerable populations, increasing access to basic resources and services, and building resilience against climate change and conflict.</p>
+                    </div>
+                </article>
+
+                <!-- SDG 2 -->
+                <article class="sdg-card">
+                    <div class="sdg-number" style="background-color: #DDA63A;">2</div>
+                    <div class="sdg-content">
+                        <h3>Zero Hunger</h3>
+                        <p>SDG 2 seeks to end hunger, achieve food security, improve nutrition, and promote sustainable agriculture. The World Health Organization estimates that 12.9% of people in developing countries are undernourished, with millions of children suffering from stunting due to malnutrition. Food insecurity is exacerbated by climate change, conflict, and economic instability. This goal emphasizes not just the availability of food, but also access to nutritious, sufficient, and safe food year-round. Sustainable agricultural practices are essential to increase productivity while protecting ecosystems and biodiversity for future generations.</p>
+                    </div>
+                </article>
+
+                <!-- SDG 3 -->
+                <article class="sdg-card">
+                    <div class="sdg-number" style="background-color: #4C9F38;">3</div>
+                    <div class="sdg-content">
+                        <h3>Good Health and Well-Being</h3>
+                        <p>SDG 3 aims to ensure healthy lives and promote well-being for all at all ages. This comprehensive goal addresses maternal and child mortality, communicable diseases like HIV/AIDS and tuberculosis, non-communicable diseases, mental health, substance abuse, road traffic injuries, and access to quality healthcare services. It also emphasizes universal health coverage, ensuring that everyone can access essential health services without financial hardship. Progress requires strengthening health systems, training healthcare workers, investing in research and development, and addressing social determinants of health such as poverty and education that significantly impact health outcomes.</p>
+                    </div>
+                </article>
+
+                <!-- SDG 4 -->
+                <article class="sdg-card">
+                    <div class="sdg-number" style="background-color: #C5192D;">4</div>
+                    <div class="sdg-content">
+                        <h3>Quality Education</h3>
+                        <p>SDG 4 strives to ensure inclusive and equitable quality education and promote lifelong learning opportunities for all. Education is one of the most powerful tools for sustainable development, poverty reduction, and gender equality. While significant progress has been made—with primary school enrollment in developing regions reaching 91% in 2015—millions of children, especially girls and those in conflict zones, remain out of school. Large disparities exist based on wealth, location (rural vs. urban), and gender. This goal emphasizes not just access to education, but also quality, relevance, and outcomes, ensuring that all children complete free primary and secondary education and have access to affordable vocational and tertiary education.</p>
+                    </div>
+                </article>
+
+                <!-- SDG 5 -->
+                <article class="sdg-card">
+                    <div class="sdg-number" style="background-color: #FF3A21;">5</div>
+                    <div class="sdg-content">
+                        <h3>Gender Equality</h3>
+                        <p>SDG 5 aims to achieve gender equality and empower all women and girls. Gender inequality persists worldwide, manifesting in discrimination, violence, unequal access to education and employment, underrepresentation in leadership positions, and harmful practices like child marriage and female genital mutilation. This goal calls for ending all forms of discrimination and violence against women and girls, ensuring full participation in decision-making, guaranteeing equal rights to economic resources and property, and ensuring universal access to sexual and reproductive health and rights. Achieving gender equality is not only a fundamental human right but also essential for peaceful, prosperous, and sustainable societies.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Menstrual Health Section -->
+        <section class="menstrual-health-section" id="menstrual-health" aria-labelledby="mh-heading">
+            <div class="container">
+                <h2 id="mh-heading">SDG Target 5.6: Universal Access to Menstrual Health and Hygiene</h2>
+                
+                <div class="mh-intro">
+                    <p class="highlight-text">
+                        Target 5.6 specifically aims to <strong>"ensure universal access to sexual and reproductive health and reproductive rights."</strong> Menstrual health and hygiene (MHH) is a critical component of this target, affecting 1.8 billion people worldwide who menstruate every month.
+                    </p>
+                </div>
+
+                <!-- Understanding Menstruation -->
+                <article class="mh-card">
+                    <h3>Understanding the Menstrual Cycle</h3>
+                    <p>
+                        The menstrual cycle is a natural, healthy biological process that typically occurs monthly in individuals with a uterus during their reproductive years, usually from ages 12-13 (menarche) to around 45-55 (menopause). The cycle averages 28 days but can range from 21-35 days. It involves hormonal changes that prepare the body for potential pregnancy. The cycle has four phases: the menstrual phase (days 1-5), during which the uterine lining sheds and exits through the vagina as menstrual blood; the follicular phase, when follicles in the ovaries mature; ovulation (around day 14), when an egg is released; and the luteal phase, when the uterine lining thickens. If pregnancy doesn't occur, the cycle repeats. Understanding this natural process is essential for health literacy and removing stigma.
+                    </p>
+                </article>
+
+                <!-- Menstrual Hygiene Best Practices -->
+                <article class="mh-card">
+                    <h3>Menstrual Hygiene Management: Best Practices</h3>
+                    <p>
+                        <strong>Proper menstrual hygiene management (MHM)</strong> is essential for health, dignity, and well-being. According to the WHO/UNICEF Joint Monitoring Programme, MHM means using clean menstrual materials to absorb or collect blood, changed in privacy as often as necessary (typically every 4-8 hours), with soap and water for washing the body, and safe disposal facilities. Key practices include:
+                    </p>
+                    <ul class="practices-list">
+                        <li><strong>Use clean, safe products:</strong> Options include disposable pads, tampons, menstrual cups, or clean reusable cloth pads. Products should be changed regularly to prevent infections.</li>
+                        <li><strong>Maintain personal hygiene:</strong> Wash hands before and after changing menstrual products. Clean the genital area with water and mild soap.</li>
+                        <li><strong>Proper disposal:</strong> Wrap used products in paper or biodegradable bags before disposal. Never flush pads or tampons. Reusable products should be washed with soap and water and dried completely in sunlight.</li>
+                        <li><strong>Access to WASH facilities:</strong> Private, clean toilets with water, soap, and disposal bins are essential, especially in schools and workplaces.</li>
+                        <li><strong>Track your cycle:</strong> Understanding your menstrual pattern helps manage it better and identify potential health issues.</li>
+                        <li><strong>Seek medical care when needed:</strong> Consult healthcare providers for severe pain, irregular cycles, excessive bleeding, or signs of infection.</li>
+                    </ul>
+                </article>
+
+                <!-- Social Stigma -->
+                <article class="mh-card">
+                    <h3>Breaking the Silence: Addressing Social Stigma</h3>
+                    <p>
+                        Despite menstruation being a normal biological process, cultural taboos and discriminatory social norms continue to surround it in many societies. Menstruation is often seen as impure or shameful, leading to practices that restrict menstruators from participating in daily activities, religious ceremonies, cooking, or even attending school. This stigma creates a culture of silence where girls and women lack accurate information about menstruation before menarche, leading to fear, confusion, and unhygienic practices. The lack of open discussion perpetuates misconceptions and negative attitudes, motivating shaming, bullying, and sometimes gender-based violence.
+                    </p>
+                    <p>
+                        Breaking this stigma requires <strong>comprehensive menstrual health education</strong> for all genders—not just those who menstruate—starting before menarche (around age 9). Education should cover the biology of menstruation, proper hygiene practices, and the importance of treating menstruation as normal and healthy. Creating supportive environments where menstruation can be discussed openly without embarrassment is crucial. Media campaigns, community engagement, and including menstrual health in school curricula all contribute to changing attitudes and normalizing menstruation.
+                    </p>
+                </article>
+
+                <!-- School and College Measures -->
+                <article class="mh-card">
+                    <h3>Creating Supportive Environments: School and College Measures</h3>
+                    <p>
+                        Educational institutions play a critical role in supporting menstrual health and ensuring that menstruation doesn't become a barrier to education. Research shows that millions of girls miss school during their periods due to inadequate facilities, lack of products, or stigma, leading to learning gaps and sometimes dropout. Schools and colleges should implement:
+                    </p>
+                    <ul class="practices-list">
+                        <li><strong>Adequate WASH infrastructure:</strong> Clean, private, gender-segregated toilets with locks, running water, soap, and covered disposal bins in every school.</li>
+                        <li><strong>Access to menstrual products:</strong> Free or affordable pads, tampons, or reusable products should be available through dispensers or health rooms, ensuring no student misses class due to lack of products.</li>
+                        <li><strong>Comprehensive menstrual health education:</strong> Include menstrual health in health and biology curricula starting from grade 4-5, before most students reach menarche. Provide accurate, age-appropriate information to all students regardless of gender.</li>
+                        <li><strong>Trained staff and supportive policies:</strong> Teachers and health staff should be trained to support students experiencing menstruation, including providing pain relief and allowing bathroom breaks. Policies should not penalize absence due to severe menstrual symptoms.</li>
+                        <li><strong>Create awareness and reduce stigma:</strong> Organize workshops, awareness campaigns, and peer education programs that normalize menstruation and combat harmful myths.</li>
+                        <li><strong>Pain management support:</strong> Provide access to pain relievers and rest areas for students experiencing severe menstrual cramps (dysmenorrhea).</li>
+                    </ul>
+                    <p>
+                        These measures ensure that menstruation doesn't become a barrier to education and helps create a supportive environment where students can learn and thrive during all days of the month.
+                    </p>
+                </article>
+
+                <!-- Resources and Support -->
+                <article class="mh-card">
+                    <h3>Resources and Support Networks</h3>
+                    <p>
+                        Addressing menstrual health requires collaboration across multiple sectors including health, education, water and sanitation, and social protection. Various organizations and resources provide support:
+                    </p>
+                    <ul class="practices-list">
+                        <li><strong>Healthcare services:</strong> Access to gynecologists, reproductive health clinics, and school health services for counseling, treatment of menstrual disorders, and pain management.</li>
+                        <li><strong>NGOs and community organizations:</strong> Groups like the Global Menstrual Collective, WASH United, and Days for Girls work globally to improve menstrual health through education, product distribution, and advocacy.</li>
+                        <li><strong>Government programs:</strong> Many countries now have national menstrual health strategies, subsidized or free menstrual products in schools, and removal of taxes on menstrual products.</li>
+                        <li><strong>Helplines and counseling:</strong> Confidential helplines and online resources provide information and support for menstrual health concerns.</li>
+                        <li><strong>Peer support groups:</strong> School-based or community menstrual health clubs create safe spaces for discussion and support.</li>
+                        <li><strong>Research and innovation:</strong> Ongoing research into affordable, sustainable menstrual products and improved understanding of menstrual health conditions benefits all menstruators.</li>
+                    </ul>
+                    <p>
+                        <strong>Remember:</strong> Menstrual health is a health and human rights issue. Everyone deserves access to information, products, facilities, and supportive environments to manage menstruation with dignity and without shame.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section class="team-section" id="team" aria-labelledby="team-heading">
+            <div class="container">
+                <h2 id="team-heading">Our Project Team</h2>
+                <p class="team-intro">Dedicated students working together to raise awareness about menstrual health and sustainable development.</p>
+                
+                <div class="team-grid" role="list">
+                    <div class="team-member" role="listitem">
+                        <div class="member-avatar">AM</div>
+                        <h3 class="member-name">Sarthak Deore </h3>
+                        <p class="member-role">Project Lead</p>
+                    </div>
+                    <div class="team-member" role="listitem">
+                        <div class="member-avatar">PS</div>
+                        <h3 class="member-name">Sanchit Wakpanjar </h3>
+                        <p class="member-role">Research Coordinator</p>
+                    </div>
+                    <div class="team-member" role="listitem">
+                        <div class="member-avatar">RK</div>
+                        <h3 class="member-name">Mayur Garud </h3>
+                        <p class="member-role">Content Writer</p>
+                    </div>
+                    <div class="team-member" role="listitem">
+                        <div class="member-avatar">SV</div>
+                        <h3 class="member-name"> Aditya Darade </h3>
+                        <p class="member-role">Designer</p>
+                    </div>
+                    <div class="team-member" role="listitem">
+                        <div class="member-avatar">AP</div>
+                        <h3 class="member-name">Bhushan Parwani </h3>
+                        <p class="member-role">Web Developer</p>
+                    </div>
+                    <div class="team-member" role="listitem">
+                        <div class="member-avatar">NK</div>
+                        <h3 class="member-name">Nisha Kapoor</h3>
+                        <p class="member-role">Health Educator</p>
+                    </div>
+                    <div class="team-member" role="listitem">
+                        <div class="member-avatar">VJ</div>
+                        <h3 class="member-name">Vikram Joshi</h3>
+                        <p class="member-role">Data Analyst</p>
+                    </div>
+                    <div class="team-member" role="listitem">
+                        <div class="member-avatar">AD</div>
+                        <h3 class="member-name">Ananya Desai</h3>
+                        <p class="member-role">Community Outreach</p>
+                    </div>
+                    <div class="team-member" role="listitem">
+                        <div class="member-avatar">KS</div>
+                        <h3 class="member-name">Karan Singh</h3>
+                        <p class="member-role">Documentation Lead</p>
+                    </div>
+                    <div class="team-member" role="listitem">
+                        <div class="member-avatar">MS</div>
+                        <h3 class="member-name">Meera Sinha</h3>
+                        <p class="member-role">Social Media Manager</p>
+                    </div>
+                    <div class="team-member" role="listitem">
+                        <div class="member-avatar">RG</div>
+                        <h3 class="member-name">Rahul Gupta</h3>
+                        <p class="member-role">Event Coordinator</p>
+                    </div>
+                    <div class="team-member" role="listitem">
+                        <div class="member-avatar">TM</div>
+                        <h3 class="member-name">Tanvi Mishra</h3>
+                        <p class="member-role">Graphic Designer</p>
+                    </div>
+                    <div class="team-member" role="listitem">
+                        <div class="member-avatar">SC</div>
+                        <h3 class="member-name">Siddharth Chauhan</h3>
+                        <p class="member-role">Technical Support</p>
+                    </div>
+                    <div class="team-member" role="listitem">
+                        <div class="member-avatar">PA</div>
+                        <h3 class="member-name">Pooja Agarwal</h3>
+                        <p class="member-role">Field Researcher</p>
+                    </div>
+                    <div class="team-member" role="listitem">
+                        <div class="member-avatar">AN</div>
+                        <h3 class="member-name">Arjun Nair</h3>
+                        <p class="member-role">Quality Assurance</p>
+                    </div>
+                    <div class="team-member" role="listitem">
+                        <div class="member-avatar">DR</div>
+                        <h3 class="member-name">Divya Reddy</h3>
+                        <p class="member-role">Volunteer Coordinator</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resources Section -->
+        <section class="resources-section" id="resources" aria-labelledby="resources-heading">
+            <div class="container">
+                <h2 id="resources-heading">Additional Resources & Support</h2>
+                <div class="resources-grid">
+                    <div class="resource-card">
+                        <h3>UN Sustainable Development Goals</h3>
+                        <p>Official UN SDG website with goals, targets, and indicators</p>
+                        <a href="https://sdgs.un.org/" target="_blank" rel="noopener noreferrer" class="resource-link">Visit Website →</a>
+                    </div>
+                    <div class="resource-card">
+                        <h3>Global Menstrual Collective</h3>
+                        <p>Coalition working to achieve menstrual health and hygiene for all</p>
+                        <a href="https://www.globalmenstrualcollective.org/" target="_blank" rel="noopener noreferrer" class="resource-link">Learn More →</a>
+                    </div>
+                    <div class="resource-card">
+                        <h3>World Health Organization</h3>
+                        <p>WHO resources on sexual and reproductive health</p>
+                        <a href="https://www.who.int/health-topics/sexual-and-reproductive-health" target="_blank" rel="noopener noreferrer" class="resource-link">Explore Resources →</a>
+                    </div>
+                    <div class="resource-card">
+                        <h3>UNICEF Water, Sanitation & Hygiene</h3>
+                        <p>UNICEF programs for menstrual hygiene management in schools</p>
+                        <a href="https://www.unicef.org/wash" target="_blank" rel="noopener noreferrer" class="resource-link">Read More →</a>
+                    </div>
+                </div>
+                
+                <div class="download-section">
+                    <h3>Download Project Summary</h3>
+                    <p>Get a printable PDF summary of this project for offline reference</p>
+                    <button onclick="window.print()" class="download-button" aria-label="Print or save page as PDF">
+                        <span>📄</span> Download PDF Summary
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About This Project</h3>
+                    <p>A college initiative to raise awareness about UN Sustainable Development Goals with focus on menstrual health and hygiene (SDG 5.6).</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#sdgs">SDG 1-5</a></li>
+                        <li><a href="#menstrual-health">Goal 5.6</a></li>
+                        <li><a href="#team">Our Team</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p>Email: <a href="mailto:sdgproject@college.edu">sdgproject@college.edu</a></p>
+                    <p>For support or inquiries about menstrual health resources in your area, please contact your local health services.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 SDG College Project Team. All rights reserved. | Created for educational purposes.</p>
+                <p class="footer-note">This website supports UN Sustainable Development Goals and promotes menstrual health awareness.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>'''
+
+with open('index.html', 'w', encoding='utf-8') as f:
+    f.write(html_content)
+
+print("✓ index.html created successfully")
