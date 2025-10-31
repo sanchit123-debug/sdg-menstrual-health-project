@@ -97,20 +97,22 @@ body {
 }
 
 .brand-logo {
-  width: 125px;    /* Aur bada! */
-  height: 125px;
+  width: 120px;
+  height: 120px;
   object-fit: contain;
+  margin-right: 18px;
   border-radius: 18px;
-  margin-right: 22px;
-  box-shadow: 0 4px 40px #4499ec44;
+  box-shadow: 0 4px 32px #4499ec44;
+  background: #fff;
 }
 .nav-brand {
   display: flex;
   align-items: center;
-  gap: 22px;
+  gap: 20px;
   padding-top: 28px;
   padding-bottom: 14px;
 }
+
 
 
 
