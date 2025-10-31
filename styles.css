@@ -99,9 +99,8 @@ body {
 .nav-brand {
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 18px;
-  gap: 18px; /* Space between logo and text */
+  gap: 22px;
+  padding: 32px 0 14px 0;
 }
 
 .brand-logo {
@@ -115,12 +114,11 @@ body {
 }
 
 .brand-name {
-  font-size: 2.7rem;
+  font-size: 3rem;
   font-weight: 800;
-  letter-spacing: 2.5px;
+  letter-spacing: 3px;
   color: #FF3A21;
-  font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
-  text-shadow: 1px 3px 32px #ff3a2118;
+  line-height: 1.1;
 }
 
 
