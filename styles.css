@@ -870,14 +870,16 @@ body {
 }
 
 .brand-logo {
-  width: 44px;
-  height: 44px;
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  margin-right: 12px;
   border-radius: 50%;
-  object-fit: cover;
-  background: linear-gradient(135deg, #FF3A21 70%, #E5243B 100%);
-  box-shadow: 0 0 10px #e5243b22;
-  margin-right: 6px;
+  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+  padding: 4px;
+  box-shadow: 0 2px 12px rgba(33, 136, 255, 0.15);
 }
+
 
 .brand-name {
   background: linear-gradient(90deg, #FF3A21 0%, #E5243B 100%);
