@@ -393,71 +393,89 @@ body {
    ======================================== */
 
 .team-section {
-    padding: var(--spacing-xl) 0;
-    background-color: var(--white);
+  padding: 3rem 0;
+  background: #f8f9fa;
+}
+.team-row {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+.team-card {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 8px 32px rgba(150, 80, 80, 0.06), 0 1.5px 5px #e5243b0a;
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  text-align: center;
+  width: 200px;
+  transition: box-shadow 0.3s;
+  border: 2px solid #e5243b1a;
+  position: relative;
+}
+.team-card:hover {
+  box-shadow: 0 12px 48px rgba(229,36,59,0.13), 0 2px 12px #e5243b17;
+  border-color: #e5243b3a;
 }
 
-.team-section h2 {
-    font-size: 2.5rem;
-    color: var(--text-dark);
-    text-align: center;
-    margin-bottom: var(--spacing-sm);
+.avatar {
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(135deg, #FF3A21, #E5243B);
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem auto;
+  border-radius: 50%;
+  box-shadow: 0 4px 16px rgba(229,36,59,0.12);
 }
 
-.team-intro {
-    text-align: center;
-    font-size: 1.2rem;
-    color: var(--text-light);
-    margin-bottom: var(--spacing-lg);
+.name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+.role {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 0.5rem;
 }
 
-.team-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: var(--spacing-md);
-    max-width: 1200px;
-    margin: 0 auto;
+.leader-row {
+  justify-content: center;
+  margin-bottom: 3rem;
 }
 
-.team-member {
-    background-color: var(--background-light);
-    padding: var(--spacing-md);
-    border-radius: 12px;
-    text-align: center;
-    transition: all var(--transition-speed);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+.leader-card {
+  border: 2.5px solid #FF3A21;
+  box-shadow: 0 0 0 6px #FF3A2122;
+  width: 260px;
+  position: relative;
+  z-index: 1;
 }
 
-.team-member:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
-    background-color: var(--white);
+.leader-card .name {
+  color: #FF3A21;
+  font-size: 1.3rem;
 }
 
-.member-avatar {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-    color: var(--white);
-    display: flex;
+@media (max-width: 900px) {
+  .team-row {
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    font-size: 2rem;
-    font-weight: bold;
-    margin: 0 auto var(--spacing-sm) auto;
+    gap: 1.5rem;
+  }
+  .team-card, .leader-card {
+    width: 80vw;
+    max-width: 350px;
+  }
 }
 
-.member-name {
-    font-size: 1.2rem;
-    color: var(--text-dark);
-    margin-bottom: var(--spacing-xs);
-}
-
-.member-role {
-    font-size: 0.95rem;
-    color: var(--text-light);
-}
 
 /* ========================================
    RESOURCES SECTION
