@@ -858,7 +858,32 @@ body {
     outline-offset: 3px;
 }'''
 
-with open('styles.css', 'w', encoding='utf-8') as f:
-    f.write(css_content)
+.fancy-title {
+  font-family: 'Segoe UI', 'Montserrat', 'Arial', sans-serif;
+  font-size: 2.7rem;
+  font-weight: 900;
+  letter-spacing: 2.5px;
+  color: #FF3A21;
+  background: linear-gradient(90deg, #FF3A21 0%, #E5243B 70%);
+  background-clip: text;
+  -webkit-background-clip: text; /* Chrome/Safari */
+  -webkit-text-fill-color: transparent; /* Chrome/Safari */
+  text-fill-color: transparent;
+  text-shadow: 2px 2px 20px #fa7268a0, 0 0 1px #e5243baa;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  display: block;
+  padding: 0.3em 0;
+  border-radius: 12px;
+  border-bottom: 4px solid #FF3A21;
+  box-shadow: 0 4px 16px 0 #e5243b1a;
+  transition: background 0.5s;
+}
 
-print("✓ styles.css created successfully")
+.fancy-title:hover {
+  background: linear-gradient(90deg, #E5243B 10%, #FF3A21 90%);
+  color: #E5243B;
+  box-shadow: 0 8px 32px 0 #fa726830;
+}
+
