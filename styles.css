@@ -112,7 +112,7 @@ body {
   padding-top: 28px;
   padding-bottom: 14px;
 }
-
+s
 
 
 
@@ -907,6 +907,37 @@ body {
   letter-spacing: 2px;
   text-shadow: 1px 3px 32px #ff3a2118;
 }
+.hospital-visit {
+  padding: 2rem 0;
+  background: #f8f9fa;
+  text-align: center;
+}
+.hospital-visit h2 {
+  margin-bottom: 0.6rem;
+  color: #E5243B;
+  font-size: 2rem;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.gallery img {
+  width: 260px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 18px rgba(229,36,59,0.09);
+  transition: transform 0.3s;
+}
+.gallery img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 28px rgba(229,36,59,0.15);
+}
+
+
 
 
 with open('styles.css', 'w', encoding='utf-8') as f:
